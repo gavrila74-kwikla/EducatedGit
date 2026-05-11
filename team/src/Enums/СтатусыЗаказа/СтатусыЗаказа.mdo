@@ -26,6 +26,18 @@
       <value>В работе</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="d63d0553-24c9-4c22-8ed9-0a46047dfc39">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38de5588-a65c-4c23-b755-69dcd9945f49">
+    <name>ОжидаетСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает согласования</value>
   <enumValues uuid="3b8f60ee-02d9-433c-8f38-45ced58b068d">
     <name>Оплачен</name>
     <synonym>
