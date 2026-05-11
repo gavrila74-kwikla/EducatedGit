@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c925e942-0ae6-4152-8175-ea4df51f7468">
+  <producedTypes>
+    <selectionType typeId="4ff83eb5-e007-4142-b787-cecc329aebaf" valueTypeId="67d0c0d5-8938-4152-a361-25223bfddf94"/>
+    <listType typeId="651de95d-e706-4ef0-9492-c1c602a1e5cb" valueTypeId="ded48a7f-e46e-468f-9333-fd6b690e2b45"/>
+    <managerType typeId="d4200322-9b2f-4070-aeb9-abd132741a5a" valueTypeId="f182cc2c-f78c-47bd-ae45-2daeabee3da0"/>
+    <recordSetType typeId="acd4dc5a-f3ce-4bdd-984c-e521d36de9d5" valueTypeId="627d7ad6-7f6f-443f-81d9-f162774a85ef"/>
+    <recordKeyType typeId="cc19d918-2125-4307-b329-fb7479d58afd" valueTypeId="5f251588-68e7-4c66-8178-c10035441863"/>
+    <recordType typeId="b1a39abe-60ec-4b39-9ef5-88378cfb74d8" valueTypeId="a674c3db-efcf-4527-b28c-bccd9fb0d9eb"/>
+    <recordManagerType typeId="9b8f42a2-2a33-43c4-acb2-df104905d625" valueTypeId="81efbfa1-faf9-486d-8f9c-eeabfaad4e2f"/>
+  </producedTypes>
+  <name>ЛогированиеОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d0c6a28d-f498-4114-bd9f-d492aa10eea3">
+    <name>КоличествоПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e97b029a-84c2-4cb5-8979-e114df2dcd2b">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="504ef323-83af-4c6b-9664-8b26315824f8">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

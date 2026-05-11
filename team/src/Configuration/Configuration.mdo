@@ -117,6 +117,7 @@
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
+  <informationRegisters>InformationRegister.ЛогированиеОбмена</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
