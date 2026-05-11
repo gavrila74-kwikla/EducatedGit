@@ -73,6 +73,7 @@
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
   <commonModules>CommonModule.Обмен</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <exchangePlans>ExchangePlan.Отделения</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
