@@ -94,6 +94,7 @@
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
   <catalogs>Catalog.Субконто</catalogs>
   <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.НачисленияСотрудникам</documents>
