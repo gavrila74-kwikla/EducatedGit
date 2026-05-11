@@ -38,6 +38,18 @@
     <synonym>
       <key>ru</key>
       <value>Ожидает согласования</value>
+  <enumValues uuid="3b8f60ee-02d9-433c-8f38-45ced58b068d">
+    <name>Оплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb27de51-8f45-4e21-8c2b-ba1098d29548">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
