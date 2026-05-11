@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f97bbd82-5699-4145-bb3d-12c82fd45859">
+  <producedTypes>
+    <objectType typeId="d291ab74-9d35-4a6c-9840-61bd56f5f28b" valueTypeId="e9c9b795-6458-4ff2-b405-0bc04467b84d"/>
+    <managerType typeId="7601f7b7-b4ed-4c2c-998c-38e474b119f7" valueTypeId="ca0a4cc5-b98f-4c2e-8ff6-f2de36f61e6b"/>
+  </producedTypes>
+  <name>ОбменСОтделениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с отделениями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбменСОтделениями.Form.Форма</defaultForm>
+  <forms uuid="3a6f2b1f-e4f7-4e28-98d0-a4941c648345">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

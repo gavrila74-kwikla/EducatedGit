@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4840b0e8-f8fd-45c6-8114-1c96648c013d">
+  <producedTypes>
+    <selectionType typeId="236baa6a-7c94-4b40-8597-05e32079b44b" valueTypeId="2ff3efec-4270-41db-bc44-058a27fc5d21"/>
+    <listType typeId="86faa340-447a-4abd-ad8b-0e838955a085" valueTypeId="e8d446f5-e5e0-4e60-b49f-3d3a5955a93d"/>
+    <managerType typeId="2dfdf6bb-a8bf-4660-8614-d80cd091a303" valueTypeId="c0870dde-fbec-4408-9b5c-f15b48847725"/>
+    <recordSetType typeId="affad898-ef7f-48fa-bab6-14e5a1f80958" valueTypeId="c4c9418b-c3f6-4c5b-bd7f-270d22445c1e"/>
+    <recordKeyType typeId="ca855a9c-3b03-4638-b95f-3035bb2c6330" valueTypeId="dd04d953-d87e-405a-b4a0-782c8b1b024f"/>
+    <recordType typeId="89112858-def1-4e25-92d4-63ae32b8bd0b" valueTypeId="c38ce352-2e2b-41a9-89de-0910aa430c2f"/>
+  </producedTypes>
+  <name>ОстаткиМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения по регистру Остатки материалов</value>
+  </extendedListPresentation>
+  <resources uuid="7423d1d9-0a09-46fe-bfea-0b84f8e8ae16">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a6538845-7d05-4c80-9273-509200ca403d">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="998a5004-dc02-42f6-a59a-8c3acc726d32">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="817dfa40-2ecc-4638-8cdf-4d565a17149c">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

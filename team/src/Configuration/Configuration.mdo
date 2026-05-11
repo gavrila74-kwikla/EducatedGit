@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60877336-8202-4cf2-9588-cd7f1938648e">
+  <name>DeveloperFirst</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a3ca75b8-6cbf-4990-bde5-f7ba5f5a4524"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4df8e98b-9681-44b0-aa92-7c139311b1b6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6c020ba5-41e6-454b-8500-9065d20813b1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="633b24d4-71e2-443b-934c-e3273bba2f22"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5e86c7f1-b090-47d4-95aa-a5d8b76c1509"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7c5548c6-2521-4ec8-ac91-33435bf1d667"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c7608474-598e-44e2-a36c-2caa3d60be01"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Фирма &quot;1С&quot;</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>28 занятий - демонстрационная конфигурация</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>28 занятий - демонстрационная конфигурация из книги М.Г.Радченко, Е.Ю.Хрусталева &quot;1С:Предприятие 8.3. Практическое пособие разрабочика&quot;</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright (С) ООО &quot;1C&quot;, 2013</value>
+  </copyright>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>http://devtrainingforum.v8.1c.ru</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.3</compatibilityMode>
+  <languages uuid="f2f1c61c-ea22-43cd-b596-1a7977c7ce5e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.Материалы</commonPictures>
+  <commonPictures>CommonPicture.Услуги</commonPictures>
+  <commonPictures>CommonPicture.Зарплата</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Директор</roles>
+  <roles>Role.Мастер</roles>
+  <roles>Role.Расчетчик</roles>
+  <roles>Role.Бухгалтер</roles>
+  <filterCriteria>FilterCriterion.ОказаниеУслуги</filterCriteria>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
+  <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <commonModules>CommonModule.Обмен</commonModules>
+  <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
+  <exchangePlans>ExchangePlan.Отделения</exchangePlans>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
+  <functionalOptions>FunctionalOption.БухгалтерскийУчет</functionalOptions>
+  <functionalOptions>FunctionalOption.РасчетЗарплаты</functionalOptions>
+  <functionalOptions>FunctionalOption.УчетКлиентов</functionalOptions>
+  <constants>Constant.ПрефиксНумерации</constants>
+  <constants>Constant.БухгалтерскийУчет</constants>
+  <constants>Constant.РасчетЗарплаты</constants>
+  <constants>Constant.УчетКлиентов</constants>
+  <commonForms>CommonForm.ОбщиеНастройки</commonForms>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
+  <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
+  <catalogs>Catalog.Субконто</catalogs>
+  <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ОказаниеУслуги</documents>
+  <documents>Document.НачисленияСотрудникам</documents>
+  <documents>Document.ВводНачальныхОстатковНоменклатуры</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.Материалы</reports>
+  <reports>Report.РеестрДокументовОказаниеУслуги</reports>
+  <reports>Report.РейтингУслуг</reports>
+  <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.ПереченьУслуг</reports>
+  <reports>Report.РейтингКлиентов</reports>
+  <reports>Report.Универсальный</reports>
+  <reports>Report.ОстаткиМатериаловПоСвойствам</reports>
+  <reports>Report.ОборотноСальдоваяВедомость</reports>
+  <reports>Report.Перерасчет</reports>
+  <reports>Report.НачисленияСотрудникам</reports>
+  <reports>Report.ДиаграммаНачислений</reports>
+  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменСОтделениями</dataProcessors>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
+</mdclass:Configuration>
