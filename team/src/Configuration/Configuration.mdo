@@ -97,6 +97,7 @@
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.НачисленияСотрудникам</documents>
   <documents>Document.ВводНачальныхОстатковНоменклатуры</documents>
+  <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <enums>Enum.СтатусыЗаказа</enums>
   <reports>Report.Материалы</reports>

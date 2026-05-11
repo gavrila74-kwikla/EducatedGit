@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24393294-c84e-4377-914a-2e7f91b71439">
+  <producedTypes>
+    <objectType typeId="9f75d921-ab43-4e8e-9c3e-f8d9b4556386" valueTypeId="3fc0cd24-bac9-4975-8cda-e883b95d9b65"/>
+    <refType typeId="baf8a487-7185-4322-94ad-4dcb161dbffb" valueTypeId="7d3332b5-f1f8-4071-90b3-2857f64ccdbe"/>
+    <selectionType typeId="a84c709d-d403-4742-b359-211896b11123" valueTypeId="e624dfce-9efb-4184-b89d-1bbe8d5998ca"/>
+    <listType typeId="a8c0a1ea-cfac-4d33-88e4-f3503b3b0e21" valueTypeId="fc6e497c-be4f-4326-9179-4c5bf994fc0a"/>
+    <managerType typeId="2ba3dbd9-47eb-4e95-a242-d9b4ee1f7c70" valueTypeId="bfcded6d-6c1b-48e1-bcb2-7e1e825b61e2"/>
+  </producedTypes>
+  <name>ЗаказКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказКлиента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="79b554b9-0b4c-4c4f-be9f-b02e050444a5">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4bea47c2-b286-4aa0-be54-eb3a7b3baea7">
+    <name>СтатусЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заказ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаказа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
